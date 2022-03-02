@@ -139,6 +139,18 @@
           "label": "HTML 转义字符"
         }
       ]
+    },
+    {
+      "code": "cmdparse",
+      "explain": "原始hex字符串转16进制分割",
+      "cmds": [
+        "cmdparse",
+        {
+          "type": "regex",
+          "match": "/^[0-9a-fA-F]+$/",
+          "label": "原始命令解析"
+        }
+      ]
     }
   ]
 }

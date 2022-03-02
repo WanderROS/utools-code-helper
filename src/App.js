@@ -10,6 +10,7 @@ import UrlDecode from './UrlDecode'
 import Unicode from './Unicode'
 import Hex from './Hex'
 import HtmlEscape from './HtmlEscape'
+import CmdParse from "./CmdPares";
 
 window.platform = {
   isMacOs: window.utools.isMacOs(),
@@ -84,6 +85,7 @@ export default class App extends React.Component {
       case 'unicode': return <Unicode {...enter} copyIndex={this.state.copyIndex} />
       case 'hex': return <Hex {...enter} copyIndex={this.state.copyIndex} />
       case 'htmlescape': return <HtmlEscape {...enter} copyIndex={this.state.copyIndex} />
+      case 'cmdparse': return <CmdParse {...enter} copyIndex={this.state.copyIndex} />
       default: return false
     }
   }

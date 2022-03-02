@@ -25,6 +25,7 @@ export default class Uuid extends React.Component {
   }
 
   handleRefreshClick = () => {
+    console.log("点击重新生成按钮")
     this.setState({ uuid: this.uuid() })
   }
 
