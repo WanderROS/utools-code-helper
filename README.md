@@ -46,3 +46,5 @@ npm run build
 - UTF8 编码
 - Html 实体编码
 - uTools 输入框自动识别UTF16编码(\u)、UTF8编码（\x)、码位(U+)(\u{})、Html实体`&#10;` `&#xFF;`
+
+### 测试
